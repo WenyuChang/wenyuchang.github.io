@@ -16,7 +16,7 @@ Software Engineer at Cisco Systems, Inc
 
 <a href="https://twitter.com/changwy" target="_blank">Twitter</a>
 
-<a href="" target="_blank">Blog feed</a>
+<a href="https://wenyuchang.github.io/archive/" target="_blank">Tech Blog</a>
 </div>
 
 ---
