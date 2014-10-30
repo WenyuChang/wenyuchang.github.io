@@ -25,7 +25,6 @@ layout: index
 	
 	{% if paginator.total_pages > 1 %}
 	<div class="pagination">
-	        AAA
 		{% if paginator.previous_page %}
 			<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
 		{% else %}
@@ -45,7 +44,7 @@ layout: index
 		{% if paginator.next_page %}
 			<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
 		{% else %}
-			<span>NextWenyu &raquo;</span>
+			<span>Next &raquo;</span>
 		{% endif %}
 	</div>
 	{% endif %}
