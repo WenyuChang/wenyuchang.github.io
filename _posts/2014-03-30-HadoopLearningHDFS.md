@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2013-03-20
-title: Hadoop Learning MapReduce
-docurl: /pdf/Hadoop-Learning-MapReduce.pdf
+date: 2014-03-30
+title: Hadoop Learning HDFS
+docurl: /pdf/Hadoop-Learning-HDFS.pdf
 ---
 
-Hadoop-Learning-MapReduce.pdf
+Hadoop-Learning-HDFS.pdf

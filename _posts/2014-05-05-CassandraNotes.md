@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2013-03-20
-title: Hadoop Learning MapReduce
-docurl: /pdf/Hadoop-Learning-MapReduce.pdf
+date: 2014-05-05
+title: Cassandra Notes
+docurl: /pdf/Cassandra-Notes.pdf
 ---
 
-Hadoop-Learning-MapReduce.pdf
+Cassandra-Notes.pdf
