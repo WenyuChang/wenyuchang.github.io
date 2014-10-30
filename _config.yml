@@ -5,7 +5,7 @@ highlighter:      pygments
 markdown:         kramdown
 google_analytics: UA-21332781-7
 timezone:         Asia/China
-paginate: 5
+paginate: 9
 paginate_path: "/blog/page:num"
 gems:
   - jemoji
