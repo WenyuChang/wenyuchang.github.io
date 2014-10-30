@@ -5,12 +5,21 @@ layout: index
 <ul class="posts">
   {% for post in site.posts %}
   <li class="post post-header">
-    <a href="{{ post.url }}" class="post-link post-title">
-      {{ post.title }}<br />
-      <small class="meta">
-        <time>{{ post.date | date_to_string }}</time>
-      </small>
-    </a>
+    {% if post.docurl %}
+      <a href="{{ post.docurl }}" class="post-link post-title">
+        {{ post.title }}<br />
+        <small class="meta">
+          <time>{{ post.date | date_to_string }}</time>
+        </small>
+      </a>
+    {% else %}
+      <a href="{{ post.url }}" class="post-link post-title">
+        {{ post.title }}<br />
+        <small class="meta">
+          <time>{{ post.date | date_to_string }}</time>
+        </small>
+      </a>
+    {% endif %}
   </li>
   {% endfor %}
 </ul>
