@@ -6,7 +6,7 @@ layout: index
   {% for post in site.posts %}
   <li class="post post-header">
     {% if post.docurl %}
-      <a href="{{ post.docurl }}" class="post-link post-title">
+      <a href="{{ post.docurl }}" class="post-link post-title" target="_blank">
         {{ post.title }}<br />
         <small class="meta">
           <time>{{ post.date | date_to_string }}</time>
